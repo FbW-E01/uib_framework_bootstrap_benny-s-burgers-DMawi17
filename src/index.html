@@ -7,12 +7,11 @@
         <title></title>
         <link rel="stylesheet" href="styles/main.css" />
     </head>
-
     <body>
         <div class="container-fluid p-0">
             <header class="row">
                 <nav
-                    class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+                    class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top px-4"
                 >
                     <a href="" class="navbar-brand">
                         <svg id="svgz">
@@ -31,13 +30,13 @@
                     <div class="collapse navbar-collapse" id="collapse-target">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">The idea</a>
+                                <a href="#the-idea" class="nav-link">The idea</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">News</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Contact</a>
+                                <a href="#the-contact" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -51,7 +50,7 @@
                 </div>
             </header>
             <main class="row">
-                <section class="idea-content">
+                <section class="idea-content" id="the-idea">
                     <h2 class="card-title text-center">The idea</h2>
                     <div class="row row-cols-sm-1 row-cols-lg-3">
                         <div class="col-sm-6 col-lg-4 pb-4">
@@ -136,9 +135,8 @@
                     <h2 class="text-center text-white display-4">
                         What's new at Benny's
                     </h2>
-                    <div
-                        class="row row-cols-1 row-cols-md-3 align-items-center"
-                    >
+                    <div id="to-scroll"
+                        class="row row-cols-1 row-cols-md-3 align-items-center">
                         <div class="col mb-4 m-auto">
                             <div class="card h-100">
                                 <img
@@ -370,7 +368,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="book-table">
+                <section class="book-table" id="the-contact">
                     <h2>Book a table</h2>
                     <form>
                         <div class="form-group">

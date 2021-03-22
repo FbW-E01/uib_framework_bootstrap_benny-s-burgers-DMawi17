@@ -39,9 +39,13 @@ header {
     background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center bottom;
 
     nav {
+        width: 100vw;
+        height: 8vh;
+        left: 0;
+        
         a {
             svg {
                 width: 40px;
@@ -125,6 +129,10 @@ main {
                 @include btn;
                 margin: 1em;
             }
+        }
+        
+        #to-scroll {
+            overflow-x: scroll;
         }
     }
 
