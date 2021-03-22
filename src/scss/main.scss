@@ -23,6 +23,7 @@ body {
     #Shape {
         fill: $primary-color;
     }
+
 }
 /*
  
@@ -131,9 +132,9 @@ main {
             }
         }
         
-        #to-scroll {
-            overflow-x: scroll;
-        }
+        // #to-scroll {
+        //     overflow-x: scroll;
+        // }
     }
 
     .book-table {
