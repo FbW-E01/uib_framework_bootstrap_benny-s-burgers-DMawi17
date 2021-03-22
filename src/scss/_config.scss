@@ -1,0 +1,31 @@
+
+$primary-color: var(--red);
+$light-color: var(--white);
+
+
+/*
+ 
+   __  __ _      _           
+  |  \/  (_)_  _(_)_ __  ___ 
+  | |\/| | \ \/ / | '_ \/ __|
+  | |  | | |>  <| | | | \__ \
+  |_|  |_|_/_/\_\_|_| |_|___/
+                             
+ 
+*/
+@mixin btn {
+    width: 120px;
+    height: 35px;
+    font-size: 0.9em;
+    border: $primary-color 1px solid;
+    background: $light-color;
+    color: $primary-color;
+}
+
+@mixin heading-set2 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 1.5em;
+    margin: auto;
+}
